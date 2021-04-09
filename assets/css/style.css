@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 10 0 10 0;
+    padding: 10px;
+}
+
+header {
+    background-color: rgb(191, 191, 191);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+header h2 {
+    text-align: center;
+}
+
+.container {
+    display: block;
+}
+
+.quiz {
+    /* float: left; */
+    text-align: center;
+}
+
+.high-score {
+    /* float: right; */
+    text-align: center;
+}
+
+.quiz h3 {
+    background-color: rgb(191, 191, 191);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.high-score h3 {
+    background-color: rgb(191, 191, 191);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.high-score li {
+    border-bottom: 1px solid black;
+}
+
+li:nth-child(odd) {background-color: rgb(228, 226, 226);}
