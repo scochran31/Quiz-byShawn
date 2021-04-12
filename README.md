@@ -1,3 +1,4 @@
+![Screen Shot 2021-04-11 at 9 51 03 PM](https://user-images.githubusercontent.com/79678327/114338861-2d330600-9b11-11eb-8dcc-8bd32adf2df0.png)
 # Quiz-byShawn
 
 Created the Styling, timer, and buttons.
