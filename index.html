@@ -12,7 +12,7 @@
     <header>
         <div>
             <h2>
-                Time Remaining: <span id="time"></span>
+                Time Remaining: <span id="time">60 seconds</span>
             </h2>
         </div>
     </header>
@@ -20,23 +20,27 @@
     <main>
         <div class="container">
             <div class="row">
-                <div class="col-sm-7 quiz">
+                <div  id="quiz" class="col-sm-7 quiz">
                     <h3>
                         .js Fundamental Quiz
                     </h3>
-                    <p>
-                        Do you have what it takes to achieve the high score? Test your knowledge
-                        of JavaScript fundamentals by taking this quiz!</p></br>
-
-                    <p>Click the button below to begin your journey. You have 60 seconds to answer
-                    the questions. Get the question right and you will receive more time.
-                    Should you answer the question incorrectly, time will be taken from you.</p></br>
-                    <h4>
-                        Choose Wisely!
-                    </h4>
-                    <button id="Start-Quiz" type="button">
-                        Click Me!
-                    </button>
+                    <div id="quiz-body">
+                        <div>
+                            <p>
+                                Do you have what it takes to achieve the high score? Test your knowledge
+                                of JavaScript fundamentals by taking this quiz!
+                            </br>
+                            </br>
+                                Click the button below to begin your journey. You have 60 seconds to answer
+                                the questions. Get the question right and you will receive more time.
+                                Should you answer the question incorrectly, time will be taken from you. 
+                            </br>
+                            </br>
+                            </p>
+                        </div>
+                    </div>
+                <button id="Start-Quiz" type="button" class="btn">Choose Wisely!</button>
+                <div class="result" id="result"></div>
                 </div>
                 <div class="col-sm-5 high-score">
                     <h3>
