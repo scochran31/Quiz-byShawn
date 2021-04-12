@@ -87,17 +87,5 @@ var answerCompare = function(guessId) {
     }
 };
 
-var endQuiz = function() {
-    if(time < 0) {
-        time = 0;
-        timerEl.innerText = time;
-    }
-    quizEl.removeAttribute("style");
-    quizEl.textContent = "How do you stack up?"
-    
-};
-
-
-
 startBtn.addEventListener("click", startQuiz);
 quizEl.addEventListener("click", answer);
